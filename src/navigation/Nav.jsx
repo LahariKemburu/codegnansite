@@ -25,7 +25,7 @@ export default function Nav() {
             <div className="side-listings">
               <ul>
                 <a href="./python_training_in_banglore"><li>In Banglore </li></a>
-                <a href="./python_training_in_hyderabad"><li>In Hyderabad</li></a>
+                <Link to="./python_training_in_hyderabad" onClick={scrollToTop} ><li>In Hyderabad</li></Link>
                 <Link to="./python_training_in_Vijayawada" onClick={scrollToTop} ><li>In Vijayawada</li></Link>
                 
               </ul>
