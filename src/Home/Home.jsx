@@ -55,8 +55,6 @@ export default function Home() {
         // Change color of h4 heading
         event.currentTarget.classList.toggle('heading-clicked');
     }
-
-
     return (
 
         <div>
